@@ -1,0 +1,108 @@
+* {
+    font-family: Helvetica;
+    color: rgb(255, 245, 238, 0.9);
+    background-color: black;
+    text-align: center;
+    /* border: 1px green solid; */
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px seashell solid;
+}
+
+header img{
+    max-height: 50px;
+    margin-left: 10px;
+}
+
+nav p {
+    display: inline-flex;
+}
+
+addr {
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.mainBanner {
+    display: inline-flex;
+    flex-direction: column;
+    background-image: url("resources/images/img-mission-background.jpg");
+    text-align: center;
+    justify-content: center;
+    height: 700px;
+    width: 1200px;
+    background-size: cover;
+}
+
+.bannerText {
+    display: inline-flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.monthlyTea {
+    display: flex;
+    flex-direction: column;
+    vertical-align: center;
+    text-align: center;
+}
+
+.teaBox {
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+    width: 300px;
+}
+
+.locChunk {
+    display: inline-flex;
+    flex-direction: column;
+    background-image: url("resources/images/img-mission-background.jpg");
+    height: 500px;
+    width: 1200px;   
+    align-items: center;
+}
+
+.locChunk h2 {
+    background-color: transparent;
+    margin-bottom: 15px;
+}
+
+.locations {
+    margin-top: 15px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: transparent;
+
+
+}
+
+.locations addr {
+    line-height: 30px;
+}
+
+.locBox {
+    line-height: 30px;
+    margin: 15px 20px;
+    height: 300px;
+    width: 300px;
+}
+
+.copyright {
+    text-align: left;
+}
+
+.contactInfo {
+    display: inline-flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+#locText {
+    position: absolute;
+}
